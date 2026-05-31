@@ -1,5 +1,4 @@
-Superstore Data Analysis & Insights Platform
-
+Superstore Data Analysis & Insights Platform Week4
 ### 👥 Developed by: InfoTact - Group 23
 
 A comprehensive 4-week business intelligence project focused on data engineering, analytical querying, and interactive dashboard architecture for global superstore retail operations.
