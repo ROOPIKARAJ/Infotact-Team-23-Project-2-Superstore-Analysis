@@ -108,6 +108,8 @@ A comprehensive 4-week business intelligence project focused on data engineering
 ```
 Infotact-Team-23-Project-2-Superstore-Analysis/
 │
+├── data/
+│   └── Superstore.csv                                 # Raw dataset (Global Superstore)
 ├── Superstore_Data_Cleaning_week1.ipynb               # Week 1: Python data cleaning notebook
 ├── Superstore_SQL_Analysis_week2.sql                  # Week 2: SQL analytical queries (25 queries)
 ├── Superstore_Business_Analysis_Dashboard_Week3.pbix  # Week 3: Power BI dashboard
@@ -122,11 +124,12 @@ Infotact-Team-23-Project-2-Superstore-Analysis/
 
 ### Week 1 — Data Cleaning (Python)
 1. Install dependencies: `pip install pandas numpy jupyter`
-2. Open `Superstore_Data_Cleaning_week1.ipynb` in Jupyter Notebook or VS Code
-3. Run all cells sequentially
+2. Ensure `data/Superstore.csv` is present in the project folder
+3. Open `Superstore_Data_Cleaning_week1.ipynb` in Jupyter Notebook or VS Code
+4. Run all cells sequentially
 
 ### Week 2 — SQL Analysis
-1. Import your cleaned dataset into a SQL database (MySQL / SQLite recommended)
+1. Import `data/Superstore.csv` into a SQL database (MySQL / SQLite recommended) as a table named `Superstore`
 2. Open `Superstore_SQL_Analysis_week2.sql`
 3. Execute queries individually or as a batch
 
